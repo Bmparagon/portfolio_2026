@@ -1,4 +1,4 @@
-import { Sparkles, Code, Shield } from 'lucide-react';
+import { Sparkles, Code, Shield, Server } from 'lucide-react';
 
 export default function About() {
   return (
@@ -17,6 +17,11 @@ export default function About() {
           <Code size={20} />
           <h3>Modern web</h3>
           <p>React-based frontends, clean structure, and fast page performance.</p>
+        </div>
+        <div className="about-card">
+          <Server size={20} />
+          <h3>Testnet</h3>
+          <p>Smart contract testing, deployment previews, and blockchain staging environments.</p>
         </div>
         <div className="about-card">
           <Shield size={20} />

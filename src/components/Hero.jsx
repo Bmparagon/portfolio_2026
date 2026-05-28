@@ -1,4 +1,5 @@
-import { Mail, Phone, Link2 } from 'lucide-react';
+import { Mail, Phone, Twitter, Linkedin, Download } from 'lucide-react';
+import cvFile from '../assets/CV.pdf';
 
 export default function Hero() {
   return (
@@ -15,6 +16,9 @@ export default function Hero() {
           </a>
           <a className="button button-secondary" href="https://wa.me/2348063902370" target="_blank" rel="noreferrer">
             <Phone size={16} /> WhatsApp
+          </a>
+          <a className="button button-secondary" href={cvFile} download="Jude-Ifenna-CV.pdf">
+            <Download size={16} /> Download CV
           </a>
         </div>
       </div>
@@ -38,14 +42,17 @@ export default function Hero() {
             <a href="https://www.tiktok.com/@0x2crypto" target="_blank" rel="noreferrer">
               TikTok
             </a>
-            <a href="https://x.com/0x2crypto" target="_blank" rel="noreferrer">
-              X
+            <a href="https://twitter.com/0x2crypto" target="_blank" rel="noreferrer">
+              Twitter
+            </a>
+            <a href="https://www.linkedin.com/in/jude-okwudigbo-8bb5422b3" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a href="https://discord.com/" target="_blank" rel="noreferrer">
+              Discord
             </a>
             <a href="https://github.com/BmParagon" target="_blank" rel="noreferrer">
               GitHub
-            </a>
-            <a href="#contact">
-              Discord
             </a>
           </div>
         </div>

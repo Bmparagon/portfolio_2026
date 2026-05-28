@@ -1,4 +1,4 @@
-import { Github, Mail, Phone, Link2 } from 'lucide-react';
+import { Github, Mail, Phone, Twitter, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -14,8 +14,11 @@ export default function Footer() {
         <a href="https://wa.me/2348063902370" target="_blank" rel="noreferrer" aria-label="WhatsApp">
           <Phone size={16} />
         </a>
-        <a href="https://x.com/0x2crypto" target="_blank" rel="noreferrer" aria-label="X">
-          <Link2 size={16} />
+        <a href="https://twitter.com/0x2crypto" target="_blank" rel="noreferrer" aria-label="Twitter">
+          <Twitter size={16} />
+        </a>
+        <a href="https://www.linkedin.com/in/jude-okwudigbo-8bb5422b3" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <Linkedin size={16} />
         </a>
         <a href="https://github.com/BmParagon" target="_blank" rel="noreferrer" aria-label="GitHub">
           <Github size={16} />

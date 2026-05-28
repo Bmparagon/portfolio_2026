@@ -21,7 +21,7 @@ export default function Contact() {
         <div className="contact-card">
           <MessageCircle size={18} />
           <h3>Discord</h3>
-          <p>bm_paragon</p>
+          <a href="https://discord.com/" target="_blank" rel="noreferrer">bm_paragon</a>
         </div>
         <div className="contact-card">
           <Github size={18} />
