@@ -1,5 +1,5 @@
 import { Mail, Phone, Twitter, Linkedin, Download } from 'lucide-react';
-import cvFile from '../assets/CV.pdf';
+import cvFile from '../assets/Jude_Okwudigbo.pdf';
 
 export default function Hero() {
   return (
@@ -17,7 +17,7 @@ export default function Hero() {
           <a className="button button-secondary" href="https://wa.me/2348063902370" target="_blank" rel="noreferrer">
             <Phone size={16} /> WhatsApp
           </a>
-          <a className="button button-secondary" href={cvFile} download="Jude-Ifenna-CV.pdf">
+          <a className="button button-secondary" href={cvFile} download="Jude_Okwudigbo.pdf">
             <Download size={16} /> Download CV
           </a>
         </div>
